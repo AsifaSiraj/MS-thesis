@@ -7,6 +7,7 @@ import MainSearch from './SearchPage/MainSearch.jsx';
 import MainRegistration from './RegistrationPage/MainRegistration.jsx';
 import MainAnnouncement from './AnnouncementPage/MainAnnouncement.jsx';
 import MainAbout from './AboutUsPage/MainAbout.jsx';
+import Student from './StudentDashBoard/Student.jsx';
 function App() {
   return (
     <div className="App">
@@ -19,15 +20,22 @@ function App() {
        <MainAnnouncement />
        <MainAbout /> */}
       
-       
+      {/* <MainStudent /> */}
+      
+      
+      
+
+
        <Router>
       <Routes>
+        {/* <Route path="/" element={<MainHome />} /> */}
         <Route path="/" element={<MainHome />} />
-        <Route path="/MainLogin" element={<MainLogin />} />
+        <Route path="/MainLogin" element={<Student />} />
         <Route path="/MainSearch" element={<MainSearch />} />
         <Route path="/MainRegistration" element={<MainRegistration />} />
         <Route path="/MainAnnouncement" element={<MainAnnouncement />} />
         <Route path="/MainAbout" element={<MainAbout />} />
+        <Route path="/Student" element={<Student />} />
       </Routes>
     </Router>
         

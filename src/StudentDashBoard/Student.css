@@ -1,0 +1,93 @@
+/* Sidebar Styling */
+aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Push profile section to the bottom */
+    background-color: #1f2937; /* Dark gray */
+    width: 16rem; /* 64px * 4 */
+    padding: 1rem;
+    position: fixed;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  aside ul li {
+    display: flex;
+    align-items: center;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    color: #d1d5db;
+    transition: background 0.3s ease;
+    margin: 8px 8px;
+  }
+  
+  aside ul li:hover {
+    background: #374151; /* Slightly lighter gray */
+  }
+  
+  aside ul li svg {
+    margin-right: 0.5rem;
+  }
+  
+  /* Profile Section */
+  .profile-section {
+    text-align: center;
+    padding: 1rem;
+    border-top: 1px solid #374151; /* Separator line */
+  }
+  
+  .profile-section img {
+    width: 4rem; /* 64px */
+    height: 4rem;
+    border-radius: 50%;
+    border: 2px solid #6b7280;
+    object-fit: cover;
+    margin-bottom: 0.5rem;
+  }
+  
+  .profile-section h2 {
+    font-size: 1.1rem;
+    color: white;
+    font-weight: 600;
+  }
+  
+  .profile-section p {
+    font-size: 0.875rem;
+    color: #9ca3af;
+  }
+  
+  .profile-section button {
+    background-color: #dc2626; /* Red */
+    color: white;
+    font-size: 0.875rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    transition: background 0.3s ease;
+  }
+  
+  .profile-section button:hover {
+    background-color: #b91c1c;
+  }
+  .heading {
+    font-size: 5rem; /* 48px */
+    line-height: 7rem; /* 32px */
+    font-weight: 1000;
+    background: linear-gradient(to right, #4A90E2, #002B5C); /* Gradient from light blue to dark blue */
+    -webkit-background-clip: text; /* Clip the background to the text */
+    -webkit-text-fill-color: transparent; /* Make the text transparent */
+    text-align: left;
+    height: 100px;
+    margin-bottom: 50px;
+   
+}
+.mb-3{
+    color: black;
+}
+.Tab{
+    color: black;
+}
+
+  

@@ -8,7 +8,7 @@ function Navbar() {
     <nav className="mx-auto p-4 fixed top-0 left-0 w-full bg-white shadow">
       <div className="container mx-auto flex items-center justify-between">
         <Nedlogo />
-        <div className="hidden md:flex space-x-8">
+        <div className="hidden md:flex space-x-8 text">
         <button 
          onClick={() => navigate("/")}
         className="relative group text-xl font-semibold text-bluish">
